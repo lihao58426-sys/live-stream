@@ -1,0 +1,14 @@
+[project]
+name = "live-stream"
+version = "1.0.0"
+description = "AI无人直播系统（DeepSeek话术生成 + Edge TTS + Pygame音频播放）"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.0",
+    "edge-tts>=6.1",
+    "pygame>=2.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
