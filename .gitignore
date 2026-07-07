@@ -1,0 +1,17 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 生成的临时音频
+temp/
+
+# 敏感配置
+.env
+
+# 虚拟环境
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
